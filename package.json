@@ -14,7 +14,6 @@
     "lint": "next lint",
     "preview": "next build && next start",
     "postinstall": "prisma generate",
-    "migrate": "prisma migrate deploy",
     "dev:db": "prisma db push --preview-feature"
     "email": "email dev --dir emails --port 3333"
   },
